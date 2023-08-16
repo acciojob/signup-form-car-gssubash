@@ -7,6 +7,40 @@
 </head>
 
 <body>
+
+	<header>
+		<h1>Signup Form Car</h1>
+	</header>
+
+	<main>
+		<form>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" placeholder="Name" required/><br>
+			<label for="email">Email</label><br>
+			<input type="email" id="email" placeholder="Email" required/><br>
+			<label for="gender">Gender</label><br>
+			<label for="gender_m">Male</label>
+			<input type="radio" id="gender,gender_m" placeholder="" required/><br>
+			<label for="gender_f">Female</label>
+			<input type="radio" id="gender,gender_f" placeholder="" required/><br>
+			<label for="cars">Car Brands</label><br>
+			<select id="cars" placeholder="--Please choose an option--" required>
+				<option>car</option>
+			</select><br>
+			<label for="age">Age</label><br>
+			<input type="number" id="age" placeholder="Age" required/><br>
+			<label for="dob">DOB</label><br>
+			<input type="date" id="dob" placeholder="" required/><br>
+			<label for="tel">Phone Number</label><br>
+			<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" /><br>
+			<label for="password">Password</label><br>
+			<input type="password" id="password" placeholder="Password" required/><br>
+			<label for="tos">I agree to the TOS</label><br>
+			<input type="checkbox" id="tos" placeholder="" required/><br>
+			<button type="submit">submit</button>
+		</form>
+	</main>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
