@@ -13,16 +13,16 @@
 	</header>
 
 	<main>
-		<form>
+		<form method="post">
 			<label for="name">Name</label><br>
 			<input type="text" id="name" placeholder="Name" required/><br>
 			<label for="email">Email</label><br>
 			<input type="email" id="email" placeholder="Email" required/><br>
 			<label for="gender">Gender</label><br>
 			<label for="gender_m">Male</label>
-			<input type="radio" id="gender,gender_m" placeholder="" required/><br>
+			<input type="radio" id="gender_m" name="gender" placeholder="" required/><br>
 			<label for="gender_f">Female</label>
-			<input type="radio" id="gender,gender_f" placeholder="" required/><br>
+			<input type="radio" id="gender_f" name="gender" placeholder="" required/><br>
 			<label for="cars">Car Brands</label><br>
 			<select id="cars" placeholder="--Please choose an option--" required>
 				<option>car</option>
